@@ -1,0 +1,40 @@
+.relogio {
+    width: 50vw;
+    height:40vh;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 20px;
+    background-color: #151515;
+    box-shadow: 5px 4px 10px #131313 ;
+}
+
+.containers {
+    width: 10vw;
+    height: 20vh;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #191919;
+}
+
+.horarios {
+    font-size: 50px;
+    font-weight: 1000;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    cursor: default;
+}
+
+.nomes {
+    font-weight: 10;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    cursor: default;
+}

@@ -1,0 +1,66 @@
+@media (max-width: 900px) {
+    .relogio {
+        height: 35vh;
+    }    
+    .containers {
+        width: 12vw;
+        height: 15vh;
+    }    
+    .horarios {
+        font-size: 40px;
+    }    
+    .nomes {
+        font-size: 12px;
+    }    
+}
+
+@media (max-width: 780px) {
+    .relogio {
+        width: 55vw;
+        height: 30vh;
+    }    
+    .containers {
+        width: 14vw;
+        height: 15vh;
+    }    
+    .horarios {
+        font-size: 36px;
+    }    
+    .nomes {
+        font-size: 11px;
+    }    
+}
+@media (max-width: 600px) {
+    .relogio {
+        width: 70vw;
+        height: 30vh;
+    }    
+    .containers {
+        width: 15vw;
+        height: 15vh;
+    }    
+    .horarios {
+        font-size: 36px;
+    }    
+    .nomes {
+        font-size: 11px;
+    }    
+}
+
+@media (max-width: 400px) {
+    .relogio {
+        width: 35vw;
+        height: 70vw;
+        flex-direction: column;
+    }    
+    .containers {
+        width: 15vw;
+        height: 15vh;
+    }    
+    .horarios {
+        font-size: 36px;
+    }    
+    .nomes {
+        font-size: 11px;
+    }    
+}
